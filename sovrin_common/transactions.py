@@ -9,6 +9,7 @@ class SovrinTransactions(Enum):
     #  Also the numeric constants CANNOT collide with transactions in plenum
     NODE = PlenumTransactions.NODE.value
     NYM = PlenumTransactions.NYM.value
+    GET_TXNS = PlenumTransactions.GET_TXN.value
     ATTRIB = "100"
     SCHEMA = "101"
     CLAIM_DEF = "102"
@@ -16,7 +17,6 @@ class SovrinTransactions(Enum):
     DISCLO = "103"
     GET_ATTR = "104"
     GET_NYM = "105"
-    GET_TXNS = PlenumTransactions.GET_TXN.value
     GET_SCHEMA = "107"
     GET_CLAIM_DEF = "108"
 
